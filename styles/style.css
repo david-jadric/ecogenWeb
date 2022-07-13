@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+
+
+li, a, p{
+  font-family: helvetica;
+  font-weight: 100;
+  font-size: 18px;
+  color: grey;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* controls the space between the nav menu items and the font of the items  */
+.np{
+  margin-right: auto;
+  padding: 20px;
+  font-size: 30px;
+}
+.logo{
+  cursor: pointer;
+}
+
+nav {
+  list-style: none;
+  padding: 0px;
+  margin: 0;
+}
+
+/* controls the navagatoin menu */
+nav li{
+  display: inline-block;
+  margin-left: 70px;
+  margin-right: 35px;
+  position: relative;
+}
+
+nav li a {
+  transition: all 0.3s ease 0s;
+  color: green;
+}
+
+nav li a:hover {
+  color: blue;
+}
+
+.gallery {
+  display: flex;
+  align-items:center;
+  text-align: center;
+  justify-content: center;
+}
+
+.event{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 100px;
+}
+
+.event p{
+  font-size: 16px;
+}
+.event img{
+  max-width:320 px;
+  max-height:320 px;
+  width: auto;
+  height: auto;
+}
