@@ -4,80 +4,97 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
-
-
-li, a, p{
-  font-family: helvetica;
-  font-weight: 100;
-  font-size: 18px;
-  color: grey;
-  text-decoration: none;
-}
-
-.container {
+/* this controls the content in the header section of the index */
+header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  /* justify-content: flex-start; */
 }
 
 
-/* controls the space between the nav menu items and the font of the items  */
-.np{
-  margin-right: auto;
-  padding: 20px;
-  font-size: 30px;
-}
-.logo{
-  cursor: pointer;
-}
 
-nav {
+
+/* this controls the nav bar link list */
+.nav_links{
   list-style: none;
-  padding: 0px;
-  margin: 0;
+  /* display: inline-block; */
+  margin-left: 95vh;
 }
 
-/* controls the navagatoin menu */
-nav li{
+/* controls the list within the header */
+.nav_links li{
   display: inline-block;
-  margin-left: 70px;
-  margin-right: 35px;
-  position: relative;
+  padding: 0px 10px;
+  font-size: 32px;
 }
 
-nav li a {
-  transition: all 0.3s ease 0s;
-  color: green;
+/* this controls the size of the logo within the header section */
+.logo {
+  margin-right: 0px;
+  height: 400px;
+  width: 400px;
+  margin-left: 15vh;
 }
 
-nav li a:hover {
-  color: blue;
-}
-
-.gallery {
+/* controls the content formatting of the pages */
+.center {
   display: flex;
-  align-items:center;
-  text-align: center;
+  align-items: center;
   justify-content: center;
 }
 
-.event{
-  display: flex;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  padding: 100px;
+/* controls the main gif loop styling */
+.logo_loop{
+  height: 75vh;
+  width: 75vh;
+  margin-bottom: 20px;
 }
 
-.event p{
-  font-size: 16px;
+/* makes the text green on the about pages */
+.text_green{
+  color: green;
 }
-.event img{
-  max-width:320 px;
-  max-height:320 px;
-  width: auto;
-  height: auto;
+
+/* controls the writing for pages */
+.writing{
+  margin-left: 10vh;
+}
+
+.writing * {
+  margin-left: 5vh;
+  font-size: 32px;
+}
+
+/* controls the headers of content pages */
+.heads{
+  display: flex;
+  /* margin-left: 10vh; */
+}
+
+
+/* somethng is wrong, the content is not justified to the center */
+.container{
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+}
+
+.container img{
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  object-position: center;
+  padding: 10px;
+
+}
+
+.container::after {
+  content: "";
+  flex-basis: 350px;
 }
