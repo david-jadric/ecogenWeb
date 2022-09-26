@@ -34,8 +34,8 @@ header {
 /* this controls the size of the logo within the header section */
 .logo {
   margin-right: 0px;
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   margin-left: 15vh;
 }
 
