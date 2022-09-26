@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
 
 * {
   box-sizing: border-box;
@@ -18,14 +18,14 @@ header {
 
 
 /* this controls the nav bar link list */
-.nav_links{
+.nav_links {
   list-style: none;
   /* display: inline-block; */
   margin-left: 95vh;
 }
 
 /* controls the list within the header */
-.nav_links li{
+.nav_links li {
   display: inline-block;
   padding: 0px 10px;
   font-size: 22px;
@@ -47,19 +47,19 @@ header {
 }
 
 /* controls the main gif loop styling */
-.logo_loop{
+.logo_loop {
   height: 75vh;
   width: 75vh;
   margin-bottom: 20px;
 }
 
 /* makes the text green on the about pages */
-.text_green{
+.text_green {
   color: green;
 }
 
 /* controls the writing for pages */
-.writing{
+.writing {
   margin-left: 10vh;
 }
 
@@ -69,14 +69,14 @@ header {
 }
 
 /* controls the headers of content pages */
-.heads{
+.heads {
   display: flex;
   /* margin-left: 10vh; */
 }
 
 
 /* somethng is wrong, the content is not justified to the center */
-.container{
+.container {
   display: flex;
   width: 100%;
   max-width: 100%;
